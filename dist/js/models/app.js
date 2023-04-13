@@ -1,6 +1,6 @@
 import { Negociacao } from "./negociacao.js";
 
 
-const negociacao = new Negociacao(new Date(), 10,300);
+const negociacao = new Negociacao(new Date());
 
-console.log(negociacao.volume);
+console.log(negociacao.volume)
